@@ -9,20 +9,20 @@ An effective processing of emergency messages with different aid organizations i
 
 ## Files of this Repository
 * Input Data
-  ** disaster_messages.csv: emergency messages
-  ** disaster_categories.csv: categories for emergency messages
+  * disaster_messages.csv: emergency messages
+  * disaster_categories.csv: categories for emergency messages
 * ETL Pipeline:
-  ** process_data.py: python script with ETL pipeline for data cleaning
-  ** ETL Pipeline Preparation_.ipynb: Jupiter Notebook in Python containing the preparation for process_data.py
-  ** DisasterResponse.db: output database of process_data.py
+  * process_data.py: python script with ETL pipeline for data cleaning
+  * ETL Pipeline Preparation_.ipynb: Jupiter Notebook in Python containing the preparation for process_data.py
+  * DisasterResponse.db: output database of process_data.py
 * ML Pipeline:
-  ** train_classifier.py: python script with machine learning pipeline to build a model with GridSearchCV
-  ** ML Pipeline Preparation.ipynb: Jupiter Notebook in Python containing the preparation for train_classifier.py
-  ** classifier.pkl: output model of train_classifier.py
+  * train_classifier.py: python script with machine learning pipeline to build a model with GridSearchCV
+  * ML Pipeline Preparation.ipynb: Jupiter Notebook in Python containing the preparation for train_classifier.py
+  * classifier.pkl: output model of train_classifier.py
 * Web App:
-  ** master.html: basic web app template
-  ** go.html: web app template to process new emergency messages
-  ** run.py: creates the vizualisations on the web app
+  * master.html: basic web app template
+  * go.html: web app template to process new emergency messages
+  * run.py: creates the vizualisations on the web app
 * README.md
 
 ## Libraries
