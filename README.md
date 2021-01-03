@@ -55,6 +55,4 @@ Real 26.248 emergengy messages classified in 36 categories provided by Figure Ei
 The ML pipeline includes some NLP techniques. A MultiOutputClassifier is used with a RandomForestClassifier optimized by GridSearchCV.
 
 ## Results
-Jokes that are funny to everyone just do not exist. Nor jokes that everyone regards as terrible. The second worst rated joke has also been the most controversial one.
-Whether a joke is funny or not remains very subjective. So the best you can do is respond to the preferences of your listeners.
-A first clue is to tell a story in the joke with more than 600 characters.
+The project will includes a web app where an emergency worker can input a new message and get classification results in several categories. 
