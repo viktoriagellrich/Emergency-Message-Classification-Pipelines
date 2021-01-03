@@ -135,8 +135,9 @@ def save_model(model, model_filepath):
         None
     """
     
-    pickle.dump(model.best_estimator_, open(model_filepath, 'wb'))
-    #joblib.dump(model, model_filepath)
+    pkl_filename = '{}'.format(model_filepath)
+    with open(pkl_filename, 'wb') as file:
+        pickle.dump(model, file)
 
 
 def main():
